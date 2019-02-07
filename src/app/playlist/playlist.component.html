@@ -1,0 +1,5 @@
+<div *ngIf="allTracks" id="mydemo">
+    <div class="me" *ngFor = "let track of allTracks"> 
+     <app-playlist-card [TrackId]=track.trackId [TrackName]=track.trackName [TrackArtist]=track.trackComments [TrackImage]=track.trackUrl></app-playlist-card>
+    </div>
+</div> 

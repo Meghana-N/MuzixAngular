@@ -1,0 +1,8 @@
+<div class="card" style="width:300px">
+  <div class="card-body">
+    <h4 class="card-title">{{TrackName}}</h4>
+    <p class="card-text">{{TrackId}}{{TrackArtist}}</p>
+    <a href="/playlist" class="btn btn-primary" (click)="save(TrackId,TrackName,TrackArtist,TrackImage)">Add to Playlist</a>
+  </div>
+  <img class="card-img-bottom" src="{{TrackImage}}" alt="Card image">
+</div>
